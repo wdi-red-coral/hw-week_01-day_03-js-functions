@@ -1,0 +1,21 @@
+Method 1
+
+Name:toString()
+Description: It converts arguments given to it into a string
+Example using it: const age = 10; Nader.toString(10); //output: '10' in a string format
+
+
+---------------------------------
+Method 2
+
+Name:slice()
+Description:This function takes 2 argument of numbers It will cut out those digit and return whatever is left
+Example using it: const name = 'Nader'; slice(1,1); //output: ade
+
+
+---------------------------------
+Method 3
+
+Name: replace()
+Description: This function takes two string arguments. Within a given string, it will search for the first argument and replace it with second one
+Example using it: const name = 'Nader'; name.replace('Nader' , 'Althubaity'); the new value for name should be 'Althubaity'
