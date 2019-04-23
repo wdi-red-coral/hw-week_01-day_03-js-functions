@@ -15,8 +15,9 @@
     - Create a file in this repo named `rps.js`
     - Write a function that takes `rock`, `paper`, or `scissors` as an argument for the user choose, then chooses `rock`, `paper`, or `scissors` randomly for the computer choose, and returns whether the user `win`, `lose`, or `tie.
     - Example: `playGame('rock') // Computer picked: paper. User picked: rock.  User lose.`
-    - _**Hint:** Javascript includes a `Math.random` method._
-
+    - _**Hint:** Javascript includes a `Math.random` method._ 
+    
+      
 2. Dice Roller
     - Create a file in this repo and name it `dice.js`
     - Write a function that chooses two random numbers (1-6) and returns them. It should also return the sum.
@@ -25,28 +26,35 @@
     - Example: `rollDice(3) // Dice rolled are 4, 2, and 7.  Sum is 13.`
 
 3.  Research 3 string methods and describe what they are used for and how to use them.  You can find string methods here https://www.w3schools.com/js/js_string_methods.asp
-
+///////////////////////////////////////////
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: length 
+Description: count how many string used in a string 
+Example using it: 
 ```
+let word = ""Hello Huda"; 
+let countLength = word.length; 
 
 Method 2
 ```
-Name:
-Description:
+Name: indexOf 
+Description: shows the index position of the first string in the text  
 Example using it:
 ```
+let sent = "welcome tp the WDI cource from GA and Misk" 
+let word = sent.indexOf ("WDI") ;
 
 Method 3
 ```
-Name:
-Description:
+Name: search()
+Description: it searchs for a value from type string and return the index or the position 
 Example using it:
 ```
+let sent = "welcome tp the WDI cource from GA and Misk" 
+let word = sent.search("GA") ;
 
+///////////////////////////////////////////
 ## [License](LICENSE)
 
 1. All content is licensed under a CC­BY­NC­SA 4.0 license.
