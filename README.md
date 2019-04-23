@@ -28,23 +28,32 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: indexOf()
+Description: to locate where in the string does a certin string 'word' starts
+Example using it: 
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: split()
+Description: turn a string into an array, when "" is used it stores the string at 0 index in the array
 Example using it:
+var txt = "a,b,c,d,e";   // String
+txt.split(",");          // Split on commas
+txt.split(" ");          // Split on spaces
+txt.split("|");          // Split on pipe
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: concat()
+Description: joins two or more strings, can be used instead of the + operator
 Example using it:
+var text1 = "Hello";
+var text2 = "World";
+var text3 = text1.concat(" ", text2);
 ```
 
 ## [License](LICENSE)
