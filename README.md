@@ -26,26 +26,33 @@
 
 3.  Research 3 string methods and describe what they are used for and how to use them.  You can find string methods here https://www.w3schools.com/js/js_string_methods.asp
 
-Method 1
-```
-Name:
-Description:
-Example using it:
-```
+Method 1 
 
-Method 2
-```
-Name:
-Description:
+Name: Finding a String in a String.
+Description: The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string.
 Example using it:
-```
+var str = “Please locate where ‘locate’ occurs!“;
+var pos = str.indexOf(“locate”);
+
+
+Method 2 
+
+Name: Replacing String Content.
+Description: The replace() method replaces a specified value with another value in a string.
+Example using it:
+str = “Please visit us !“;
+var n = str.replace(“us”, “Jedaah”);
+consle.log(str); = Please visit Jedaah !
 
 Method 3
-```
-Name:
-Description:
+
+Name: String Length.
+Description: The length property returns the length of a string.
 Example using it:
-```
+var txt = “Hello world”;
+var sln = txt.length;
+console.log(sln); = 11
+
 
 ## [License](LICENSE)
 
