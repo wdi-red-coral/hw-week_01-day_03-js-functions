@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name:length
+Description:get lenght of certin string
+Example using it:let txt ="amany";
+                      text2 le=txt.length;
+                      text2=5;;
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name:substring()
+Description: return a part from string depend on specified index
+Example using it: let txt ="amany";
+                      let text2=txt.substring(1,4);
+                      text2='aman';
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name:replace();
+Description: replace a value with new value
+Example using it:let str = "Hello";
+let n = str.replace("Hello", "Hi");
+n='Hi';
 ```
 
 ## [License](LICENSE)
