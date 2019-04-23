@@ -28,23 +28,35 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: substr()
+Description: This method extract a specific part of a string and
+returnes the extracted parts in a new string. The extract strat count 
+the string from the first parameter then when he reach to the that index 
+start count that word from the second parameter. 
+Example using it: var str = "Heloo JavaScript Coders !";
+                var res = str.substr(6,4);
+                console.log(res);
+                output// Java
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: replace()
+Description: This method replace a word with another word 
+Example using it:let word = "Hello Python Coders ";
+                let str = word.replace("Python"," JavaScript");
+                console.log(str);
+                output// Hello  JavaScript Coders 
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: charAt()
+Description: This method return the letter in the index you choose 
+Example using it: word = "Hello Python Coders ";
+                str = word.charAt(13);
+                console.log(str);
+                output// C
 ```
 
 ## [License](LICENSE)
