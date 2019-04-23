@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
+Name:replace()
+Description:You use it if you want to replace a specified value with another value.
 Example using it:
+const message = "Good morning";
+const night = message.replace("morning", "night");
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name:search()
+Description:You can use it if you want to searches a string for a specified value and returns the position of it.
 Example using it:
+const message = "Good morning";
+const search =message.search("Good");
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name:toUpperCase()
+Description:You can use it if you want to convert a string to uppercase.
 Example using it:
+const message = "Good morning";
+message.toUpperCase();
 ```
 
 ## [License](LICENSE)
