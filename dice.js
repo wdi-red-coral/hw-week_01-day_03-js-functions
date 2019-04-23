@@ -4,3 +4,4 @@ const rollDice = function (){
     
     return "Dice rolled are " + num1 + " and " + num2 + ". Sum is " + (num1+num2);
 }
+rollDice();
