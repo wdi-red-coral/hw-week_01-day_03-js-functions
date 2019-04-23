@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
+Name:length 
+Description:returns the length of a string (including the space)
 Example using it:
-```
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+txt.length; >>will be 26
+
 
 Method 2
 ```
-Name:
-Description:
+Name:search()
+Description:search where a specific pece of a string is in a given string
 Example using it:
+var str = "Please locate where 'locate' occurs!";
+str.search("locate"); >>will give 7 because "locate" occure in the 7th place (includibg the space)
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name:indexOf()
+Description:eturns the position of the first occurrence of a specified text
 Example using it:
+var str = "Please locate where 'locate' occurs!";
+str.indexOf("locate"); >>will give 7
 ```
 
 ## [License](LICENSE)
