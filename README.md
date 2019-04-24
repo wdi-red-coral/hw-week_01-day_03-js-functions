@@ -28,24 +28,30 @@
 
 Method 1
 ```
-Name:
-Description:
+Name: length
+Description: length will get the number of text
 Example using it:
-```
+
+let myName = "omar";
+console.log(myName.length);
 
 Method 2
 ```
-Name:
-Description:
+Name: typeof()
+Description: typeof will give me the type of value (if the value number, or string, or booleamn).
 Example using it:
-```
+
+let info= '88';
+console.log(typeof(info));
 
 Method 3
 ```
-Name:
-Description:
+Name: toUpperCase()
+Description: toUpperCase will return all the letter for value big 
 Example using it:
-```
+
+let rep = "omat";
+console.log(rep.toUpperCase());
 
 ## [License](LICENSE)
 
