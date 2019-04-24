@@ -28,23 +28,26 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: replace()
+Description: The replace() method replaces a specified value with another value in a string:
+Example using it: str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name:toUpperCase():
+Description: A string is converted to upper case with toUpperCase():
+Example using it: var text1 = "Hello World!";      
+var text2 = text1.toUpperCase();  
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: charAt()
+Description: The charAt() method returns the character at a specified index (position) in a string:
+Example using it: var str = "HELLO WORLD";
+str.charAt(0); 
 ```
 
 ## [License](LICENSE)
