@@ -6,5 +6,7 @@ const diceRoller = function(roll){
         sum = sum + rand;
         tries[i-1]=rand;
     }
-    return 'Dice rolled are '+tries+'. ' +'sum is '+sum+'.'  ;
+    const last =tries.pop();
+    const all = tries.join(", ");
+    return 'Dice rolled are '+all+' and '+last+'. ' +'sum is '+sum+'.'  ;
 }
