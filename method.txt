@@ -1,0 +1,32 @@
+Method 1
+```
+Name: slice()
+Description:extracts a part of a string and returns the extracted 
+part in a new string.
+The method takes 2 parameters: the start position, and the end position 
+Example using it:
+let dd = "my name is samah I'm engoy with hw";
+let ss = dd.slice(11,16);
+console.log(ss)
+>> "samah"
+```
+
+Method 2
+```
+Name: search()
+Description:loooking for string for a specified value and returns 
+the position of the match
+Example using it:
+let dd = "my name is samah I'm engoy with hw";
+let ss = dd.search("with");
+console.log(ss)
+```
+
+Method 3
+```
+Name:replace()
+Description:replaces a specified value with another value in a string
+Example using it:
+let dd = "my name is samah I'm engoy with hw";
+let ss = dd.replace("samah","somayah");
+console.log(ss)
