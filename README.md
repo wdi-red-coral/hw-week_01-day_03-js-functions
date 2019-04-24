@@ -28,23 +28,42 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: Slice()
+Description: It has two parameters start and end parameters to specify the part of the string you want to extract.
+Example using it: 
+
+const name = "Ahmed";
+ const extract = name.slice(0,2) ;
+
+ The result of name will be :  "Ah" .    
+
+
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: replace()
+Description: Replaces a specified value with another value in a string
 Example using it:
+const str = "I'am a software developer";
+const rep = str.replace("software", "Web");
+
+ The result of str will be : "I'am a Web developer" .
+
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: toUpperCase()
+Description: Change the string from lowercase to uppercase
 Example using it:
+
+const name = "ahmed";
+const  changeName = name.toUpperCase();
+
+ The result of name will be : "AHMED" .
+
+
 ```
 
 ## [License](LICENSE)
