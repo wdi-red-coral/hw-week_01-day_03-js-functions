@@ -1,0 +1,13 @@
+Name: lastIndexOf()
+Description: Method returns the index of the last occurrence of a specified text in a string.
+Example using it: let fullName = "Salman Altuwayjiri";
+                      fullName.lastIndexOf("a");
+
+Name: slice()
+Description: Extracts a part of a string and returns the extracted part in a new string.
+Example using it: let str = "aaaaSalmanaaaa";
+                  let name = str.slice(4, 10);
+
+Name: charCodeAt()
+Description: Method returns the unicode of the character at a specified index in a string.
+Example using it: "S".charCodeAt();
